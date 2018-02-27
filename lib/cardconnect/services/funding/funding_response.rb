@@ -3,7 +3,7 @@ module CardConnect
     class FundingResponse
       include Utils
 
-      FIELDS = [:funding, :txns, :adjustments, :fundingdate, :merchid, :datechanged, :fundingmasterid].freeze
+      FIELDS = [:funding, :adjustments, :fundingdate, :merchid, :datechanged, :fundingmasterid, :txns].freeze
 
       attr_accessor(*FIELDS)
       attr_reader :errors

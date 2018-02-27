@@ -1,10 +1,10 @@
 module CardConnect
   module Service
     class Funding < ServiceEndpoint
-      # Initializes a Settlement Status Service
+      # Initializes a Funding Service
       #
       # @param connection [CardConnect::Connection]
-      # @return CardConnect::Service::SettlementStatus
+      # @return CardConnect::Service::Funding
       def initialize(connection = CardConnect.connection)
         super(connection)
         @resource_name = '/funding'

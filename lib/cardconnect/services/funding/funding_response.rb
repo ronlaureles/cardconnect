@@ -1,6 +1,6 @@
 module CardConnect
   module Service
-    class FundingServiceResponse
+    class FundingResponse
       include Utils
 
       FIELDS = [:funding, :txns, :adjustments, :fundingdate, :merchid, :datechanged, :fundingmasterid].freeze

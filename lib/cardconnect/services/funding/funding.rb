@@ -1,6 +1,6 @@
 module CardConnect
   module Service
-    class FundingService < ServiceEndpoint
+    class Funding < ServiceEndpoint
       # Initializes a Settlement Status Service
       #
       # @param connection [CardConnect::Connection]

@@ -2,7 +2,7 @@ require 'date'
 
 module CardConnect
   module Service
-    class FundingServiceRequest
+    class FundingRequest
       include Utils
 
       REQUIRED_FIELDS = [:merchid, :date].freeze

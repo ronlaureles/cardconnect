@@ -9,7 +9,7 @@ module CardConnect
       attr_reader :errors
 
       def initialize(response)
-        response = response.empty? ? response : response.first
+        #response = response.empty? ? response : response.first
         set_attributes(response, FIELDS)
         parse_transactions
         @errors = []
